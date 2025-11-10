@@ -161,3 +161,16 @@ h6 {
    display: inline-block;
    width: 100%;
 }
+
+.arabic-title {
+   direction: rtl;
+   text-align: right;
+ }
+
+ .icon svg {
+   width: 22px;
+   height: 22px;
+   flex-shrink: 0; /* prevents SVG from resizing */
+   margin-top: 4px; /* optional: tweak vertical alignment */
+ }
+ 
